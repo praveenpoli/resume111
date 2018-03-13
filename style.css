@@ -1,0 +1,144 @@
+
+.flex-main{
+  display: flex;
+  flex-direction: row;
+
+}
+.flex>div{
+  padding: 2%;
+  margin: 2%;
+  background: skyblue;
+}
+
+
+.profile{
+  width:30%;
+  background: lightgreen;
+  margin: 1%;
+  padding: 2%;
+  border:1px solid #000;
+  border-radius: 20px;
+h
+}
+.content{
+  width: 70%;
+  background: lightgreen;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid #000;
+  border-radius: 20px;
+
+}
+body{
+  background: #ddd;
+
+}
+img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .flex-main{
+  display: flex;
+  flex-direction: column;
+
+}
+.flex>div{
+  padding: 2%;
+  margin: 2%;
+  background: skyblue;
+}
+
+
+.profile{
+  width:100%;
+  background: lightgreen;
+  margin: 1%;
+  padding: 2%;
+  border:1px solid #000;
+  border-radius: 20px;
+h
+}
+.content{
+  width: 100%;
+  background: #fff;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid#000;
+  border-radius: 20px;
+
+}
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .flex>div{
+    padding: 2%;
+    margin: 2%;
+    background: skyblue;
+  }
+
+
+  .profile{
+    width:100%;
+    background: lightgreen;
+    margin: 1%;
+    padding: 2%;
+    border:1px solid #000;
+    border-radius: 20px;
+  h
+  }
+  .content{
+    width: 100%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid#000;
+    border-radius: 20px;
+
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:480px){
+
+  .flex-main{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .flex>div{
+    padding: 2%;
+    margin: 2%;
+    background: skyblue;
+  }
+
+
+  .profile{
+    width:100%;
+    background: lightgreen;
+    margin: 1%;
+    padding: 2%;
+    border:1px solid #000;
+    border-radius: 20px;
+  h
+  }
+  .content{
+    width: 100%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid#000;
+    border-radius: 20px;
+
+  }
+}
